@@ -25,7 +25,7 @@ We can use a vegachart HTML tag like so:
 
 In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Illinois_Building_Inventory_compact.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/Illinois_Building_Inventory_Interactive.json" style="width: 100%"></vegachart>
 
 ## Search The Data & Methods
 

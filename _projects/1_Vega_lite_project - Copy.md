@@ -1,5 +1,5 @@
 ---
-name: Vega Lite Example Project
+name: HW8
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
 description: This is a "showcase" project that uses vega-lite for interactive viz!

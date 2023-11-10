@@ -18,7 +18,8 @@ Example comes from this [great blog post right here](https://blog.4dcu.be/progra
 We can use a vegachart HTML tag like so:
 
 ```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
+The first plot is a rectangular heatmap that visualizes the distribution of buildings by their status and total floors. It employs nominal encoding for 'Bldg Status' on the x-axis and quantitative binning for 'Total Floors' on the y-axis, with a color scheme highlighting the count of records, effectively representing data density. The second plot is a bar chart showcasing the distribution of buildings by the year acquired, using quantitative binning on the x-axis for 'Year Acquired' and a count on the y-axis, with a straightforward color scheme focusing on distribution. The interactivity feature, a brush selection tool, links the two plots, allowing users to select a range in the heatmap and filter corresponding data in the bar chart. This interactivity enriches the visualization, offering a dynamic way to explore and understand the relationship between different variables.
 ```
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/chart.json" style="width: 100%"></vegachart>
